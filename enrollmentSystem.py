@@ -47,12 +47,6 @@ def show_menu():
     choice = input("Enter the number of your choice: ")
     return int(choice)
 
-def user_information():
-    f_name = input("Enter your first name: ")
-    l_name = input("Enter your last name: ")
-    program = show_menu()
-    return program
-
 def cities(city,limit1,limit2,limit3):
     slot_london = limit1
     slot_manchester = limit2
